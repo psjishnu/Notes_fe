@@ -100,7 +100,7 @@ export const APIRequest = (
 
   // set authorization header in the request header
   const config = {
-    baseURL: "https://notes-be-13.herokuapp.com/",
+    baseURL: "https://mynotesbe.herokuapp.com/",
     headers: {},
   };
   if (!request.noAuth && localStorage.getItem("stay_access_token")) {
