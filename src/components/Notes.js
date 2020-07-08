@@ -16,7 +16,7 @@ function Notes() {
       title: title,
       content: content,
     };
-    if (title == "") {
+    if (title === "") {
       form = { title: "TITLE_EMPTY!!", content: content };
     }
     dispatch(postdetails(form)).then((res) => {
@@ -60,7 +60,7 @@ function Notes() {
         />
       )}{" "}
       <div className=" flex">
-        <div className="flex-col flex bg-yellow-700 shadow-lg  ml-auto mr-auto items-center w-full lg:w-1/2 my-2 md:w-3/5">
+        <div className="flex-col flex rounded bg-yellow-700 shadow-lg  ml-auto mr-auto items-center w-full lg:w-1/2 my-2 md:w-3/5">
           <h1 className="font-bold text-4xl my-8 text-white"> Add Notes </h1>
           <form
             action=""

@@ -18,3 +18,7 @@ export const getdetails = (form) => {
 export const search = (id) => {
   return fireRequest("search", [id]);
 };
+
+export const deleteNote = (form) => {
+  return fireRequest("deleteNote", [], form);
+};

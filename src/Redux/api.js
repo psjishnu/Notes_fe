@@ -12,4 +12,9 @@ export default {
     path: "/notes",
     method: "GET",
   },
+
+  deleteNote: {
+    path: "/notes/delete",
+    method: "POST",
+  },
 };
