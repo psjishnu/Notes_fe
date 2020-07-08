@@ -11,6 +11,7 @@ const routes = {
 };
 function PublicRouter() {
   const pages = useRoutes(routes);
+  localStorage.setItem("page", pages.type.name);
 
   return (
     <div>

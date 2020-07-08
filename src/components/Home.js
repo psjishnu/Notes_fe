@@ -1,10 +1,11 @@
 import React from "react";
 
 function Home() {
+  localStorage.setItem("page", "Home");
   return (
     <div>
       <div className="container mt-10  m-0 m-auto py-12 px-4">
-        <div className=" w-1/2 m-0 m-auto  lg:max-w-lg lg:flex bg-red-800 rounded-lg border shadow-lg pb-6 lg:pb-0">
+        <div className="w-full lg:w-1/2 m-0 m-auto  lg:max-w-lg lg:flex bg-red-800 rounded-lg border shadow-lg pb-6 lg:pb-0">
           <div className="w-full  p-4">
             <div className="inline-grid">
               <p className="work-sans font-bold text-4xl text-center text-white">

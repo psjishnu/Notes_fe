@@ -8,20 +8,20 @@ function Navbar() {
           <div className="flex ">
             <a
               href="/"
-              className="block mr-10 text-md px-4 py-2 rounded text-blue-700 ml-2 font-bold hover:text-blue-900 mt-4 hover:bg-blue-100 lg:mt-0"
+              className="block mr-10 text-sm px-2 py-1 lg:py-2 lg:px-4 lg:text-md border border-blue-900 text-center rounded text-blue-700 ml-2 font-bold hover:text-blue-900 mt-4 hover:bg-blue-100 lg:mt-0"
             >
               <h1>MY NOTES</h1>
             </a>
             <a
               href="/create"
-              className="block text-md px-4 py-2 rounded text-blue-700 ml-2 font-bold hover:text-white mt-4 hover:bg-blue-700 lg:mt-0"
+              className="block text-sm px-2 py-1  lg:py-2 lg:px-4 lg:text-md rounded border border-blue-900 text-center text-blue-700 ml-2 font-bold hover:text-white mt-4 hover:bg-blue-700 lg:mt-0"
             >
               Create Notes
             </a>
 
             <a
               href="/mynotes"
-              className=" block text-md px-4  ml-2 py-2 rounded text-blue-700 font-bold hover:text-white mt-4 hover:bg-blue-700 lg:mt-0"
+              className=" block text-sm px-2 border  lg:py-2 lg:px-4 lg:text-md border-blue-900 text-center  ml-2 py-1 rounded text-blue-700 font-bold hover:text-white mt-4 hover:bg-blue-700 lg:mt-0"
             >
               My Notes
             </a>
