@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+const Home = () => {
   localStorage.setItem("page", "Home");
   return (
     <div>
@@ -30,6 +30,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

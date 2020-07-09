@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div>
       <nav className="flex w-full items-center justify-between flex-wrap bg-white py-2 lg:px-12 shadow border-solid border-t-2 border-blue-700">
@@ -10,7 +10,7 @@ function Navbar() {
               href="/"
               className="block mr-10 text-sm px-2 py-1 lg:py-2 lg:px-4 lg:text-md border border-blue-900 text-center rounded text-blue-700 ml-2 font-bold hover:text-blue-900 mt-4 hover:bg-blue-100 lg:mt-0"
             >
-              <h1>MY NOTES</h1>
+              <h1>HOME</h1>
             </a>
             <a
               href="/create"
@@ -30,6 +30,6 @@ function Navbar() {
       </nav>
     </div>
   );
-}
+};
 
 export default Navbar;
